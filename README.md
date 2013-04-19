@@ -1,26 +1,17 @@
 # Introduction
 
-This is an improved version of Banthar's [Go-SDL](http://github.com/banthar/Go-SDL).
+This is an modified version of 0xe2-0x9a-0x9b's [Go-SDL](http://github.com/banthar/Go-SDL).
 
-The improvements/differences are:
+Modifications:
 
-* SDL functions (except for SDL-mixer) can be safely called from concurrently
-  running goroutines
-* All SDL events are delivered via a Go channel
-* Support for low-level SDL sound functions
+* Better support for pixel level code.
+* Maybe add more/better zoom functions ...
 
-* Can be installed in parallel to Banthar's Go-SDL
-* The import paths are "github.com/0xe2-0x9a-0x9b/Go-SDL/..."
-
+* The import paths are "github.com/Zwobot/Go-SDL/..."
 
 # Installation
 
-Make sure you have SDL, SDL-image, SDL-mixer and SDL-ttf (all in -dev version).
-
-Installing libraries and examples:
-
-    go get -v github.com/0xe2-0x9a-0x9b/Go-SDL/...
-
+Don't.
 
 # Credits
 
